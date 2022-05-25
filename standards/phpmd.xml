@@ -29,6 +29,7 @@
     <rule ref="rulesets/design.xml">
         <exclude name="CouplingBetweenObjects"/>
         <exclude name="NumberOfChildren"/>
+        <exclude name="CountInLoopExpression" />
     </rule>
     <rule ref="rulesets/naming.xml">
         <exclude name="ShortVariable"/>
@@ -42,7 +43,7 @@
     <!-- Custom settings for specific rules -->
     <rule ref="rulesets/naming.xml/ShortVariable">
         <properties>
-            <property name="exceptions" value="id,ip,i,j,n,io,qb,os"/>
+            <property name="exceptions" value="id,ip,i,j,n,io,qb,os,x,y,z"/>
         </properties>
     </rule>
     <rule ref="rulesets/design.xml/CouplingBetweenObjects">
